@@ -1,0 +1,199 @@
+.beijing{
+    width: 100%;
+    height: 13.34rem;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+.beijing .lufei{
+    width: 1.14rem;
+    height: 1.64rem;
+    margin: 1.85rem auto 0;
+    background-image: url("../img/zhuce/lufei.png");
+    background-size: cover;
+}
+.beijing .yingwen{
+    width: 100%;
+    height: 0.18rem;
+    margin-top: 0.45rem;
+    text-align: center;
+    line-height: 0.18rem;
+    font-size: 0.16rem;
+    color: #787777;
+}
+.beijing .huanying{
+    width: 100%;
+    height: 0.24rem;
+    margin-top: 0.38rem;
+}
+.beijing .huanying img{
+    width: 2.29rem;
+    height: 0.24rem;
+    display: block;
+    margin: 0 auto;
+}
+.beijing .huangyuanjiao{
+    width: 4.58rem;
+    height: 0.38rem;
+    margin-top: 0.75rem;
+    margin-left: 1.25rem;
+    background: #fb8c49;
+    border-top-left-radius: 0.15rem;
+    border-top-right-radius: 0.15rem;
+}
+.beijing .zhuce{
+    width: 5.12rem;
+    height: 3.8rem;
+    background: #f5f5f5;
+    position: fixed;
+    top: 6.05rem;
+    left: 1.22rem;
+    border-radius: 0.15rem;
+}
+.beijing .zhuce .yi{
+    width: 100%;
+    height: 0.4rem;
+}
+.beijing .zhuce .yi .yuan{
+    width: 0.43rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.beijing .zhuce .yi .yuan .yuanyi{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: #898989;
+    border-radius: 50%;
+}
+.beijing .zhuce .yi .yuan .yuaner{
+    width: 0.14rem;
+    height: 0.14rem;
+    background: #bfbfbf;
+    border-radius: 50%;
+}
+.beijing .zhuce .er{
+    width: 4.6rem;
+    height: 0.56rem;
+    margin-top: 0.24rem;
+    margin-left: 0.27rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1rem solid #d0d0d0;
+}
+.beijing .zhuce .er img{
+    width: 0.28rem;
+    height: 0.11rem;
+}
+.beijing .zhuce .er .shouji{
+    width: 0.31rem;
+    height: 0.37rem;
+    display: flex;
+}
+.beijing .zhuce .er .shouji img{
+    width: 0.29rem;
+    height: 0.35rem;
+    margin-left: 0.6rem;
+}
+.beijing .zhuce .san{
+    width: 4.6rem;
+    height: 0.56rem;
+    margin-top: 0.27rem;
+    margin-left: 0.27rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1rem solid #d0d0d0;
+}
+.beijing .zhuce .san input{
+    width: 2.3rem;
+}
+.beijing .zhuce .san img{
+    width: 0.28rem;
+    height: 0.11rem;
+}
+.beijing .zhuce .yanzhengma{
+    width: 1.5rem;
+    height: 0.29rem;
+    border-radius: 0.15rem;
+    background: #58e44d;
+    color: white;
+    font-size: 0.2rem;
+    line-height: 0.29rem;
+    text-align: center;
+    margin-left: 0.6rem;
+}
+.beijing .zhuce .san .suozi{
+    width: 0.31rem;
+    height: 0.37rem;
+    display: flex;
+}
+.beijing .zhuce .san .suozi img{
+    width: 0.29rem;
+    height: 0.35rem;
+    margin-left: 0.6rem;
+}
+.beijing .zhuce .si{
+    width: 4.6rem;
+    height: 0.56rem;
+    margin-top: 0.1rem;
+    margin-left: 0.27rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.18rem;
+}
+.beijing .zhuce .si i{
+    color: red;
+    font-size: 0.35rem;
+}
+.beijing .zhuce .anniu{
+    width: 1.66rem;
+    height: 0.45rem;
+    border-radius: 0.15rem;
+    background-image: url("../img/denglu/anniu.png");
+    background-size: cover;
+    position: absolute;
+    bottom: -0.22rem;
+    left: 1.72rem;
+}
+.beijing .zhuce .si{
+    width: 4.6rem;
+    height: 0.56rem;
+    margin-top: 0.24rem;
+    margin-left: 0.27rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.1rem solid #d0d0d0;
+}
+.beijing .zhuce .si img{
+    width: 0.28rem;
+    height: 0.11rem;
+}
+.beijing .zhuce .si .shouji{
+    width: 0.31rem;
+    height: 0.37rem;
+    display: flex;
+}
+.beijing .zhuce .si .shouji img{
+    width: 0.29rem;
+    height: 0.35rem;
+    margin-left: 0.6rem;
+}
+.beijing .zhuce .si .suozi{
+    width: 0.31rem;
+    height: 0.37rem;
+    display: flex;
+}
+.beijing .zhuce .si .suozi img{
+    width: 0.29rem;
+    height: 0.35rem;
+    margin-left: 0.6rem;
+}
+.beijing .yuedu{
+    width: 100%;
+    height: 0.36rem;
+    margin-top: 5rem;
+    background-image: url("../img/zhuce/zuixia.png");
+    background-size: cover;
+}

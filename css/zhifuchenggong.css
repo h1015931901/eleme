@@ -1,0 +1,231 @@
+.zhezhao{
+    width: 100%;
+    height: 5.9rem;
+    background: rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+}
+.header{
+    width: 100%;
+    height: 3.84rem;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+    background-image: url("../img/fukuanjiemian/beijing.png");
+    background-size: cover;
+    position: relative;
+}
+.header .theader{
+    width: 100%;
+    height: 0.88rem;
+    font-size: 0.32rem;
+    line-height: 0.88rem;
+}
+.header .theader i{
+    color: white;
+}
+.header .bheader{
+    width: 100%;
+    height: 2.96rem;
+    overflow: hidden;
+}
+.header .bheader p:nth-child(1){
+    color: white;
+    font-size: 0.3rem;
+    margin-top: 0.15rem;
+}
+.header .bheader p:nth-child(1) a{
+    color: white;
+    font-size: 0.3rem;
+    border: 0.01rem solid #ffffff;
+    margin-top: 0.15rem;
+}
+.header .bheader .te{
+    color: white;
+    font-size: 0.28rem;
+    margin-top: 0.33rem;
+}
+.header .bheader .san{
+    width: 3.23rem;
+    height: 0.63rem;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header .bheader .san p:nth-child(1){
+    color: white;
+    font-size: 0.2rem;
+}
+.header .bheader .san p:nth-child(2){
+    color: white;
+    font-size: 0.2rem;
+}
+.dingwei{
+    width: 100%;
+    height: 1.82rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: absolute;
+    top:3.3rem;
+}
+.dingwei .yuanjiao{
+    width: 100%;
+    height: 1.82rem;
+    border-radius: 0.2rem;
+    background: white;
+    border: 0.01rem solid black;
+}
+.dingwei .yuanjiao .top{
+    width: 100%;
+    height: 0.91rem;
+    padding: 0.24rem;
+    box-sizing: border-box;
+    border-top-left-radius:0.2rem;
+    border-top-right-radius:0.2rem;
+    border-bottom: 0.1rem solid #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dingwei .yuanjiao .top .left{
+    width: 1rem;
+    height: 0.26rem;
+    font-size: 0.24rem;
+}
+.dingwei .yuanjiao .top .right{
+    flex-grow: 1;
+    height: 0.26rem;
+    display: flex;
+    align-content:flex-end;
+    margin-left: 2.84rem;
+}
+.dingwei .yuanjiao .top .right p:nth-child(1){
+    color: red;
+    font-size: 0.24rem;
+}
+.dingwei .yuanjiao .top .right p:nth-child(2){
+    color: #f7f0f0;
+    font-size: 0.24rem;
+}
+.dingwei .yuanjiao .bottom{
+    width: 100%;
+    height: 0.91rem;
+    padding: 0.24rem;
+    box-sizing: border-box;
+    border-bottom-left-radius:0.2rem;
+    border-bottom-right-radius:0.2rem;
+    display: flex;
+}
+.dingwei .yuanjiao .bottom .zuo{
+    width: 1rem;
+    height: 0.26rem;
+    font-size: 0.24rem;
+}
+.dingwei .yuanjiao .bottom .you{
+    flex-grow: 1;
+    height: 0.26rem;
+    display: flex;
+    align-content:flex-end;
+    justify-content:flex-end;
+    margin-left: 2.84rem;
+}
+.dingwei .yuanjiao .bottom .you p:nth-child(1){
+    color: red;
+    font-size: 0.24rem;
+}
+.dingwei .yuanjiao .bottom .you p:nth-child(2){
+    color: #f7f0f0;
+    font-size: 0.24rem;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+}
+.zhifuchenggong {
+    width: 100%;
+    height: 7.5rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+}
+.zhifuchenggong .yi{
+    width: 100%;
+    height: 0.83rem;
+    font-size: 0.3rem;
+    line-height: 0.83rem;
+    text-align: center;
+}
+.zhifuchenggong .yi i{
+    color: red;
+    font-size: 0.45rem;
+}
+.zhifuchenggong .er{
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.18rem;
+    color: #6a6262;
+    text-align: center;
+    line-height: 0.8rem;
+    border-bottom: 0.01rem solid #7e7474 ;
+}
+.zhifuchenggong .san{
+    width: 100%;
+    height: 2.18rem;
+    text-align: center;
+    font-size: 0.3rem;
+    overflow: hidden;
+}
+.zhifuchenggong .san p{
+    color: blue;
+    margin-top: 0.5rem;
+}
+.zhifuchenggong .si{
+    width: 100%;
+    height: 1.72rem;
+}
+.zhifuchenggong .si .tu{
+    width: 1.69rem;
+    height: 1.69rem;
+    margin: 0 auto;
+}
+.zhifuchenggong .si .tu img{
+    width: 100%;
+    height: 100%;
+}
+.zhifuchenggong .wu{
+    width: 100%;
+    height: 2.19rem;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.zhifuchenggong .wu .zuo{
+    width: 2.36rem;
+    height: 0.73rem;
+    background: #c7c5c5;
+    border-radius: 0.2rem;
+    font-size: 0.36rem;
+    line-height: 0.73rem;
+    text-align: center;
+    color: white;
+}
+.zhifuchenggong .wu .you{
+    width: 2.36rem;
+    height: 0.73rem;
+    background: #f01a1a;
+    border-radius: 0.2rem;
+    font-size: 0.36rem;
+    line-height: 0.73rem;
+    text-align: center;
+    color: white;
+}
+.zhifuchenggong .wenhao{
+    position: absolute;
+    top:0.06rem;
+    right: 0.2rem;
+}
+.zhifuchenggong .wenhao i{
+    color: #c0c0c0;
+    font-size: 0.45rem;
+}

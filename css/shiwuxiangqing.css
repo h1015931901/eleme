@@ -1,0 +1,207 @@
+.header{
+    width:100%;
+    height: 3.38rem;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+    background-image: url("../img/shiwuxiangqing/foodtu.png");
+    background-size: cover;
+}
+.header .theader{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .theader i{
+    color: white;
+}
+.header .theader .right{
+    width: 1.08rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.zhong{
+    width: 100%;
+    height: 1.98rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.zhong .leftzhong{
+    width: 2.27rem;
+    height: 100%;;
+}
+.zhong .leftzhong p:nth-child(1){
+    font-size: 0.3rem;
+    margin-top: 0.17rem;
+}
+.zhong .leftzhong p:nth-child(2){
+    font-size: 0.2rem;
+    color: #968f8f;
+    margin-top: 0.20rem;
+}
+.zhong .leftzhong p:nth-child(3){
+    font-size: 0.3rem;
+    color: red;
+    margin-top: 0.38rem;
+}
+.zhong .rightzhong{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.zhong .rightzhong .anniu{
+    width: 1.91rem;
+    height: 0.36rem;
+    background: #eb5958;
+    color: white;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 0.36rem;
+    border-radius: 0.15rem;
+    border: 0.01rem solid black;
+}
+.zhongxia{
+    width: 100%;
+    height: 1.43rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-top:0.39rem;
+    border-bottom: 0.1rem solid #d8d2d4;
+}
+.zhongxia p:nth-child(1){
+    font-size: 0.26rem;
+}
+.zhongxia p:nth-child(2){
+    width: 6.6rem;
+    height: 0.62rem;
+    font-size: 0.22rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin-top: 0.15rem;
+}
+.gukepingjia{
+    width: 100%;
+    height: 0.73rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.1rem solid #d8d2d4;
+}
+.gukepingjia p{
+    font-size: 0.26rem;
+    line-height: 0.69rem;
+}
+.ping{
+    width: 100%;
+    height: auto;
+    padding:0 0.24rem;
+    margin-top: 0.34rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.ping .left{
+    width: 0.78rem;
+    height: 1.38rem;
+}
+.ping .left img{
+    width: 0.78rem;
+    height: 0.78rem;
+}
+.ping .right{
+    flex-grow: 1;
+    height: 1.38rem;
+    margin-left: 0.33rem;
+}
+.ping .right .one{
+    width: 100%;
+    height: 0.32rem;
+    display: flex;
+    justify-content: space-between;
+}
+.ping .right .one p:nth-child(1){
+    font-size: 0.26rem;
+ }
+.ping .right .one p:nth-child(2){
+    font-size: 0.14rem;
+}
+.ping .right .two{
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0.18rem;
+}
+.ping .right .three{
+    width: 100%;
+    height: 0.3rem;
+    font-size: 0.22rem;
+    margin-top: 0.05rem;
+}
+.ping .right .four{
+    width: 100%;
+    height: 0.32rem;
+    margin-top: 0.05rem;
+    display: flex;
+    justify-content:flex-end;
+}
+.ping .right .four .xiao{
+    width: 2rem;
+    height: 0.32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ping .right .four .xiao p{
+    font-size: 0.18rem;
+}
+.ping .right .four .xiao p>i{
+    color: red;
+}
+.dibu{
+    width: 100%;
+    height: 0.93rem;
+    background: #3d3d3d;
+    padding: 0 0.24rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+.dibu .left{
+    width: 5.52rem;
+    height: 0.93rem;
+    background:#3d3d3d;
+    color: white;
+    line-height: 0.93rem;
+    font-size: 0.18rem;
+    text-align: center;
+}
+.dibu .right{
+    flex-grow: 1;
+    height: 0.93rem;
+    background: #8c7177;
+    font-size: 0.24rem;
+    color: white;
+    text-align: center;
+    line-height: 0.93rem;
+}
+.dibu .yuan{
+    width: 1.05rem;
+    height: 1.05rem;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 1rem;
+    bottom: 0.31rem;
+}
+.dibu .yuan i{
+    font-size: 0.7rem;
+    color: white;
+    position: absolute;
+    bottom: 0.14rem;
+    left: 0.2rem;
+}

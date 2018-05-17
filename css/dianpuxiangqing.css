@@ -1,0 +1,311 @@
+.header{
+    width: 100%;
+    height: 2.7rem;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+    background-image:url("../img/dianpuxiangqing/beijing.png") ;
+    background-size: cover;
+}
+.header .theader{
+    width: 100%;
+    height: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .theader .you{
+    width: 1.11rem;
+    height:0.9rem;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.header .theader i{
+    color: white;
+}
+.header .bheader{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+}
+.header .bheader img{
+    width: 2.45rem;
+    height: 1.8rem;
+}
+.header .bheader .zi{
+    flex-grow: 1;
+    height: 1.8rem;
+    margin-left: 0.3rem;
+}
+.header .bheader .zi h1{
+    font-size: 0.36rem;
+    color: #ffffff;
+}
+.header .bheader .zi p{
+    font-size: 0.18rem;
+    margin-top: 0.15rem;
+}
+.wenzi{
+    width: 100%;
+    height: 0.85rem;
+    margin-top: 0.23rem;
+    padding: 0 0.24rem 0.05rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom: 0.1rem solid #ae9a9f;
+
+}
+.wenzi li{
+    font-size: 0.28rem;
+    position: relative;
+}
+.wenzi >li.active:before{
+    content: '';
+    border-bottom: 0.1rem solid red;
+    position: absolute;
+    bottom: -0.18rem;
+    width: 100%;
+    height: 0.06rem;
+    border-radius: 0.03rem;
+    background: #eb5958;
+}
+.list{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 0.20rem;
+}
+.list .left{
+    width: 1.69rem;
+    height: auto;
+    background: white;
+}
+.list .left li{
+    width: 100%;
+    height: 0.67rem;
+    background: #cdcdd0;
+    margin-bottom: 0.14rem;
+}
+.list .left .active{
+    background: white;
+}
+.list .left li{
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.67rem;
+}
+.list .right{
+    height: auto;
+    flex-grow: 1;
+}
+.list .right .one{
+    width: 100%;
+    height: 1.27rem;
+    margin-bottom: 0.39rem;
+    display: flex;
+}
+.list .right .one .left{
+    width: 1.27rem;
+    height: 1.27rem;
+    margin-right: 0.08rem;
+    margin-left: 0.25rem;
+}
+.list .right .one .left img{
+    width: 100%;
+    height: 100%;
+}
+.list .right .one .right{
+    flex-grow: 1;
+    position: relative;
+}
+.list .right .one .right .yi{
+    font-size: 0.26rem;
+}
+
+.list .right .one .right .er{
+    width: 2.8rem;
+    font-size: 0.18rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list .right .one .right .san{
+    font-size: 0.18rem;
+}
+.list .right .one .right .si{
+    font-size: 0.18rem;
+}
+.list .right .one .right .growp{
+    width: 1.02rem;
+    height: 0.34rem;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    right: 0.2rem;
+}
+.list .right .one .right .growp .jian{
+    width: 0.34rem;
+    height: 0.34rem;
+    display: flex;
+}
+.list .right .one .right .growp .jian img{
+    width: 100%;
+    height: 100%;
+}
+.list .right .one .right .growp p{
+    flex-grow: 1;
+    text-align: center;
+    line-height: 0.34rem;
+    font-size: 0.18rem;
+}
+.list .right .one .right .growp .jia{
+    width: 0.34rem;
+    height: 0.34rem;
+    display: flex;
+}
+.list .right .one .right .growp .jia img{
+    width: 100%;
+    height: 100%;
+}
+.dibu{
+    width: 100%;
+    height: 2.73rem;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+}
+.dibu .one{
+    width:100%;
+    height: 0.43rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #cbc5c5;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .one .leftone{
+    font-size: 0.22rem;
+}
+.dibu .one .rightone{
+    font-size: 0.18rem;
+    display: flex;
+    align-items: center;
+}
+.dibu .two{
+    width: 100%;
+    height: 1.32rem;
+    background: #fafafa;
+    overflow: hidden;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.dibu .two .lefttwo{
+    width: 1.46rem;
+    height: 0.35rem;
+    margin-top: 0.51rem;
+    font-size: 0.22rem;
+    float: left;
+}
+.dibu .two .righttwo{
+    width: 0.5rem;
+    height: 0.4rem;
+    float: right;
+    margin-top: 0.51rem;
+    margin-right: 1.5rem;
+    font-size: 0.22rem;
+}
+.dibu .two .growp{
+    width: 1.3rem;
+    height: 0.35rem;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0.9rem;
+    right: 0.27rem;
+}
+.dibu .two .growp .jian{
+    width: 0.34rem;
+    height: 0.34rem;
+    background: white;
+    display: flex;
+}
+.dibu .two .growp .jian img{
+    width: 100%;
+    height: 100%;
+}
+.dibu .two .growp .jia{
+    width: 0.34rem;
+    height: 0.34rem;
+    background: white;
+    display: flex;
+}
+.dibu .two .growp .jia img{
+    width: 100%;
+    height: 100%;
+}
+.dibu .two .growp p{
+    flex-grow: 1;
+    text-align: center;
+    line-height: 0.34rem;
+    font-size: 0.18rem;
+}
+.dibu .three{
+    width: 100%;
+    height: 0.98rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.dibu .three .leftthree{
+    display: flex;
+    width: 5.35rem;
+    height: 0.98rem;
+    background: black;
+}
+.dibu .three .leftthree .yi{
+    width: 1.32rem;
+    height: 0.58rem;
+    margin-left: 1.8rem;
+    text-align: center;
+}
+.dibu .three .leftthree .yi p{
+    font-size: 0.25rem;
+    color: white;
+}
+.dibu .three .rightthree{
+    display: flex;
+    width: 2.15rem;
+    height: 0.98rem;
+    background: yellow;
+
+}
+.dibu .three .rightthree p{
+    font-size: 0.28rem;
+    line-height: 0.98rem;
+    text-align: center;
+    color: white;
+    margin-left: 0.32rem;
+}
+.dibu .three .yuan{
+    width: 1.06rem;
+    height: 1.06rem;
+    border-radius: 50%;
+    background: yellow;
+    position: absolute;
+    left: 0.66rem;
+    bottom: 0.36rem;
+}
+.dibu .three .yuan i{
+    font-size: 0.8rem;
+    color: white;
+    position: absolute;
+    left: 0.1rem;
+    top: 0.2rem ;
+}

@@ -1,0 +1,264 @@
+.header{
+    width: 100%;
+    height: 2.14rem;
+    background: url("../img/header/header.png");
+    background-size: 100% 100%;
+    padding:0.4rem 0.24rem 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header .theader{
+    width: 100%;
+    height: 0.50rem;
+}
+.header .you{
+    width: 2rem;
+    height: 0.50rem;
+    float: left;
+}
+.header .theader .you .left{
+    width: 1.5rem;
+    height: 0.50rem;
+    font-size: 0.28px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.5rem;
+    float: left;
+    margin-top: 0.1rem;
+}
+.header .theader .you .left i{
+    color: #ffffff;
+}
+.header .theader .you .right{
+    width: 0.42rem;
+    height: 0.50rem;
+    float: right;
+}
+.header .theader .you .right i{
+    color: #ffffff;
+    float: left;
+    margin-top: 0.2rem;
+}
+.header .zheader{
+    width: 100%;
+    height: 0.35rem;
+    margin-top: 0.4rem;
+}
+.header .zheader input{
+    display: block;
+    width: 6.2rem;
+    height: 0.3rem;
+    background: #ffffff;
+    margin: 0 auto;
+    border-radius: 0.1rem;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.35rem;
+    z-index:3;
+    position: relative;
+}
+.header .zheader  i{
+    font-size: 0.18rem;
+    line-height: 0.35rem;
+    position: absolute;
+    left: 2.3rem;
+    top:1.27rem;
+    z-index:55;
+}
+.header .theader .zuo{
+    width: 1.18rem;
+    height: 0.5rem;
+    float: right;
+    margin-top: 0.1rem;
+    font-size: 0.18rem;
+    text-align: center;
+    color: #ffffff;
+}
+.header .theader .zuo i{
+    float: right;
+    color: #ffffff;
+}
+.zhongjian{
+    width: 100%;
+    height: 3.6rem;
+    float: left;
+    margin-top: 0.1rem;
+    position: relative;
+    border-bottom: 0.2rem solid #eae6e7;
+}
+.zhongjian .yincang{
+    width: 100%;
+    height: 3.53rem;
+    float: left;
+    margin-top: 0.32rem;
+    position: absolute;
+    top:-0.31rem;
+    right: -100%;
+}
+.zhongjian .tu{
+    width: 0.99rem;
+    height: 1.28rem;
+    float: left;
+    margin: 0 0.24rem 0.4rem 0.24rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 0.22rem;
+    text-align: center;
+    color: #6a5d5d;
+}
+.zhongjian .tu .tu1{
+     display: block;
+     width: 0.99rem;
+     height: 0.99rem;
+     margin: 0 auto;
+ }
+.zhongjian .tu .tu2{
+    display: block;
+    width: 0.99rem;
+    height: 0.99rem;
+    margin: 0 auto;
+}
+.zhongjian .lunbo{
+    width: 0.55rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    margin-top: 3.28rem;
+}
+.zhongjian .lunbo .zuo{
+    width: 0.16rem;
+    height: 0.16rem;
+    border-radius: 50%;
+    float: left;
+    margin-top: -0.15rem;
+    background: #897277;
+}
+.zhongjian .lunbo .you{
+    width: 0.16rem;
+    height: 0.16rem;
+    background: #b5a7aa;
+    border-radius: 50%;
+    float: right;
+    margin-top: -0.15rem;
+    margin-left: 0.15rem;
+}
+/*上部分结束*/
+.shangjia{
+    width: 100%;
+    height: 0.9rem;
+    font-size: 0.26rem;
+    float: left;
+    padding-left: 0.24rem;
+    display: flex;
+    align-items: center;
+}
+.xia{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.xia .xiala{
+    width: 100%;
+    height: 1.8rem;
+}
+.xia .xiala .tu{
+    width: 1.38rem;
+    height: 1.55rem;
+    margin-left: 0.24rem;
+    float: left;
+}
+.xia .xiala .tu1{
+    width: 100%;
+    height: 100%;
+}
+.xia .xiala .zi{
+    width: 5.5rem;
+    height: 1.55rem;
+    float: right;
+}
+.xia .xiala .zi .one{
+    width: 5.5rem;
+    height: 0.3rem;
+    font-size: 0.24rem;
+}
+.xia .xiala .zi .two{
+    width: 5.5rem;
+    height: 0.3rem;
+    font-size: 0.16rem;
+}
+.xia .xiala .zi .two .left{
+    width: 3rem;
+    height: 0.3rem;
+    float: left;
+}.xia .xiala .zi .two .left .xing{
+    width: 0.81rem;
+    height: 0.14rem;
+}
+.xia .xiala .zi .two .left span:nth-child(2){
+    color: red;
+    margin-right: 0.1rem;
+}
+.xia .xiala .zi .two .right{
+    width: 1.9rem;
+    height: 0.3rem;
+    float: right;
+    box-sizing: border-box;
+}
+.xia .xiala .zi .two .right span:nth-child(1){
+    border: 0.01rem solid #000000;
+    font-size: 0.14rem;
+}
+.xia .xiala .zi .two .right span:nth-child(2){
+    display: block;
+    float: right;
+    width: 1rem;
+    height: 0.3rem;
+    background: #6fb5f5;
+    color: white;
+    font-size: 0.14rem;
+}
+.xia .xiala .zi .three{
+    width: 5.5rem;
+    height: 0.3rem;
+
+}
+.xia .xiala .zi .three span:nth-child(2){
+    display: block;
+    float:right;
+}
+.xia .xiala .zi .four{
+    width: 5.5rem;
+    height: 0.3rem;
+}
+.xia .xiala .zi .four i{
+    color: red;
+}
+.xia .xiala .zi .five{
+    width: 5.5rem;
+    height: 0.3rem;
+}
+.xia .xiala .zi .five i{
+    color: crimson;
+}
+.zuixiabu {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: white;
+    box-shadow: 0  0.05rem 0.03rem 0 rgba( 0,0,0,0.3);
+    z-index: 999;
+}
+.zuixiabu > a{
+    flex-grow: 1;
+    font-size: 0.18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zuixiabu > a >i{
+    font-size: 0.56rem;
+}

@@ -1,0 +1,191 @@
+.header{
+    width: 100%;
+    height: 1.91rem;
+    background-image: url("../img/dingdan/dingdan.png");
+    background-size: cover;
+    padding:0.4rem 0.24rem 0;
+    box-sizing: border-box;
+}
+.header .one{
+    width: 100%;
+    height: 0.62rem;
+    font-size: 0.3rem;
+    text-align: center;
+    color: white;
+ }
+.header .two{
+    width: 100%;
+    height: 0.45rem;
+    font-size: 0.28rem;
+    text-align: center;
+    color: white;
+}
+.zhu{
+    width: 100%;
+    height: 10.46rem;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+}
+.zhu .yi{
+    width: 100%;
+    height: 2.2rem;
+    background: white;
+    display: flex;
+    border-radius: 0.2rem;
+    margin-bottom: 0.4rem;
+    border: 0.01rem solid #d5d5cf;
+}
+.zhu .yi .zuo{
+    width: 1.86rem;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.zhu .yi .zuo .shang{
+    width: 1.01rem;
+    height: 1.01rem;
+    margin-top: 0.17rem;
+    border-radius: 50%;
+    background-image: url("../img/dingdan/tu1.png");
+    background-size: cover;
+}
+.zhu .yi .zuo .shangxia{
+    width: 100%;
+    height: 0.1rem;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhu .yi .zuo .shangxia .yuan{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #d0d0d0;
+    border-radius: 50%;
+}
+.zhu .yi .zuo .shangxia .yuaner{
+    width: 0.1rem;
+    height: 0.1rem;
+    background: #d0d0d0;
+    border-radius: 50%;
+}
+.zhu .yi .zuo .shangxia .juxing{
+    width: 0.69rem;
+    height: 0.02rem;
+    background: #d0d0d0;
+}
+.zhu .yi .zuo .xia{
+    width: 0.73rem;
+    height: 0.15rem;
+    margin-top: 0.1rem;
+    background-image: url("../img/dingdan/wujiaoxing.png");
+    background-size: cover;
+}
+.zhu .yi .zuo .zuixia{
+    width: 1.01rem;
+    height: 0.28rem;
+    border-radius: 0.1rem;
+    margin-top: 0.11rem;
+    background: red;
+    color: white;
+    text-align: center;
+    line-height: 0.28rem;
+    font-size: 0.22rem;
+}
+.zhu .yi .zhong{
+    width: 0.02rem;
+    height: 1.77rem;
+    background: black;
+    margin-top: 0.2rem;
+}
+.zhu .yi .you{
+    flex-grow: 1;
+    height: 100%;
+    margin-left: 0.29rem;
+    position: relative;
+}
+.zhu .yi .you .one{
+    width: 100%;
+    height: 0.28rem;
+    margin-top:0.17rem ;
+    font-size: 0.26rem;
+}
+.zhu .yi .you .two{
+    width: 100%;
+    height: 0.16rem;
+    margin-top: 0.15rem;
+    font-size: 0.16rem;
+    color: #9a8d8d;
+}
+.zhu .yi .you .three{
+    width: 3.5rem;
+    height: 0.47rem;
+    margin-top: 0.3rem;
+    font-size: 0.18rem;
+    color: #9a8d8d;
+}
+.zhu .yi .you .four{
+    width: 2.8rem;
+    height: 0.26rem;
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.zhu .yi .you .four .left{
+    color: #c2b5b5;
+    font-size: 0.16rem;
+}
+.zhu .yi .you .four .left i{
+    color: #5898ba;
+    font-size: 0.16rem;
+}
+.zhu .yi .you .four .right{
+    color: #c2b5b5;
+    font-size: 0.16rem;
+}
+.zhu .yi .you .four .right i{
+    color: #92d17d;
+    font-size: 0.16rem;
+}
+.zhu .yi .you .sanjiao{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.19rem;
+}
+.zhu .yi .you .sanjiao i{
+    font-size: 0.6rem;
+}
+.zhu .yi .you .youshangjiao{
+    width: 0.68rem;
+    height: 0.72rem;
+    background-image: url("../img/dingdan/hong.png");
+    position: absolute;
+    top: -0.22rem;
+    right: 0.42rem;
+    background-size: cover;
+}
+.zuixiabu {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: white;
+    box-shadow: 0  0.05rem 0.03rem 0 rgba( 0,0,0,0.3);
+    z-index: 999;
+}
+.zuixiabu > a{
+    flex-grow: 1;
+    font-size: 0.18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zuixiabu > a >i{
+    font-size: 0.56rem;
+}
